@@ -10,7 +10,7 @@ function Navbar() {
       <div className='relative mt-1 flex min-h-16 items-center justify-between border-b px-4 sm:px-6 lg:px-8'>
 
         <div className='w-40 sm:w-56 lg:w-70 mb-1'>
-          <img className='w-full' src="./asset/BapuCollage.webp" alt="Bapu Gujarat Knowledge Village" />
+          <img className='w-full' src="/bapuclg/asset/BapuCollage.webp" alt="Bapu Gujarat Knowledge Village" />
         </div>
 
         <button
