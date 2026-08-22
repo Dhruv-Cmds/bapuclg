@@ -65,7 +65,7 @@ function Footer() {
           <div class="container mx-auto py-4 px-5 flex items-center flex-wrap flex-col sm:flex-row">
             <p class="text-gray-500 text-sm text-center sm:text-left">© 2026 Shankersinh Vaghela Bapu Charitable trust (SVBCT) —
             </p>
-            <a href="https://dhruvcore.com" rel="noopener noreferrer" class="  ml-1" target="_blank"> <span className='text-blue-600 font-semibold text-lg hover:text-cyan-500'>@Dhruv</span></a>
+            <a href="https://dhruvcore.com" rel="noopener noreferrer" class="  ml-1" target="_blank"> <span>Design By—</span><span className='text-blue-600 font-semibold text-lg hover:text-cyan-500'>@Dhruv</span></a>
 
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a href="https://www.facebook.com/bgkvofficial?rdid=0QY8QhNYPS2LjZtJ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DbgYfRNbA%2F#" target='_blank' class="text-gray-500">
