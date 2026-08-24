@@ -3,12 +3,14 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Enquiry from "./components/Enquiry";
 import About from "./components/About";
+import Contact from "./components/Contact";
+
 function App() {
 
   return (
 
-    <div className="scroll-smooth">
-      < About />
+    <div>
+      < Contact/>
     </div>
 
   )

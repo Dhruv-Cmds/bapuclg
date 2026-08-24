@@ -4,8 +4,6 @@ import Navbar from './Navbar'
 
 const About = () => {
 
-    const arrow = ">"
-
     return (
         <>
             <div className="min-h-screen flex flex-col scroll-smooth">
