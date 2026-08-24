@@ -15,7 +15,7 @@ function Main() {
   const marqueeCompanies = Array.from({ length: 12 }, () => companies).flat();
 
   return (
-    <>
+    <div className='scroll-smooth'>
 
       <div className='mt-1'>
         <img className='w-full' src="/bapuclg/asset/banner.webp" alt="" />
@@ -220,7 +220,7 @@ function Main() {
         </div>
       </div>
 
-    </>
+    </div>
   )
 }
 

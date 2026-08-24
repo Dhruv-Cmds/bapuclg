@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <footer class="text-gray-600 font-poppins ">
+      <footer class="text-gray-600 font-poppins scroll-smooth">
 
         <div class="container px-5 mx-auto md:flex flex-row items-center hidden">
 
