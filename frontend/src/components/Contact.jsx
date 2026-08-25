@@ -11,12 +11,12 @@ const Contact = () => {
 
                 <Navbar />
 
-                <div class="flex flex-col items-center text-center justify-center mt-10 space-y-2 border-b mb-10">
+                <div className="flex flex-col items-center text-center justify-center mt-10 space-y-2 border-b mb-10">
 
-                    <h2 class="font-semibold title-font mt-4 text-gray-900 text-4xl tracking-widest">Contact Us
+                    <h2 className="font-semibold title-font mt-4 text-gray-900 text-4xl tracking-widest">Contact Us
                     </h2>
 
-                    <div class="w-30 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                    <div className="w-30 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
 
 
                     <div className='mx-5 rounded-3xl  my-10 bg-slate-100 p-5 flex flex-col space-y-10 justify-center items-center text-2xl tracking-wider'>
