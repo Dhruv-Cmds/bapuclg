@@ -9,7 +9,7 @@ function Footer() {
 
           <img className='w-50 mb-30' src="/bapuclg/asset/footer.webp" alt="" />
 
-          <div class="flex-grow flex justify-between flex-wrap pl-20">
+          <div class="grow flex justify-between flex-wrap pl-20">
 
             <div class="w-1/6 px-4">
 

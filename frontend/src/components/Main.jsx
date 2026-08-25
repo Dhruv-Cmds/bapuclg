@@ -165,7 +165,7 @@ function Main() {
                   feedback: 'SVBIP played an important role in my academic and personal growth. The faculty and supportive environment helped me gain knowledge, confidence, and practical experience throughout every semester of my academic journey.',
                 },
               ]).map((testimonial, index) => (
-                <div key={`${testimonial.name}-${index}`} className="flex w-[85vw] sm:w-[32vw] lg:w-[28rem] shrink-0 flex-col items-center p-4 text-center">
+                <div key={`${testimonial.name}-${index}`} className="flex w-[85vw] sm:w-[32vw] lg:w-md shrink-0 flex-col items-center p-4 text-center">
                   <div className="mb-5 mx-auto flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-gray-800">
                     <img className="h-full w-full object-cover" src={testimonial.image} alt={testimonial.name} />
                   </div>

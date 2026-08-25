@@ -4,13 +4,14 @@ import Footer from "./components/Footer";
 import Enquiry from "./components/Enquiry";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Admission from "./components/Admission";
 
 function App() {
 
   return (
 
     <div>
-      < Contact/>
+      < Admission/>
     </div>
 
   )
