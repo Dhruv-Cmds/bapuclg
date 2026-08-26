@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
-// import React from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import { DockFreeIcons } from '@hugeicons/core-free-icons'
+
+import { HugeiconsIcon } from "@hugeicons/react";
+import { FolderClosedIcon, Menu01Icon, Cancel01Icon } from "@hugeicons/core-free-icons";
+
 import { useNavigate } from "react-router-dom";
 
 
@@ -12,13 +14,90 @@ const Programs = () => {
 
     const [preview, setPreview] = useState("");
 
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleScroll = () => {
+        document.getElementById("/diploma")?.scrollIntoView({
+            behavior: "smooth",
+        });
+
+
+        setMenuOpen(false);
+    };
+
+
     return (
         <>
             <div className="min-h-screen flex flex-col scroll-smooth font-poppins">
 
                 <Navbar />
 
-                <div className='border-b mb-10'>
+                <div className='border-b mb-10 md:mt-10'>
+
+                    <div className="flex justify-center container mx-auto gap-10">
+
+                        {/* DESKTOP BUTTONS */}
+                        <div
+                            onClick={() => navigate("/be")}
+                            className='hidden md:flex bg-indigo-500 text-white px-0 md:px-4 rounded-4xl whitespace-nowrap mx-3 md:mx-0 py-5 text-2xl text-center duration-300 ease hover:bg-indigo-400 hover:text-black font-semibold tracking-wider hover:scale-110 items-center gap-5'
+                        >
+                            BE/UG Academic Program
+                            <HugeiconsIcon icon={FolderClosedIcon} size={30} />
+                        </div>
+
+                        <div
+                            onClick={() => navigate("/pg")}
+                            className='hidden md:flex bg-indigo-500 text-white px-0 md:px-4 rounded-4xl whitespace-nowrap mx-3 md:mx-0 py-5 text-2xl text-center duration-300 ease hover:bg-indigo-400 hover:text-black font-semibold tracking-wider hover:scale-110 items-center gap-5'
+                        >
+                            ME/PG Academic Program
+                            <HugeiconsIcon icon={FolderClosedIcon} size={30} />
+                        </div>
+
+                        <div
+                            onClick={() => navigate("/diploma")}
+                            className='hidden md:flex bg-indigo-500 text-white px-0 md:px-25 rounded-4xl whitespace-nowrap mx-3 md:mx-0 py-5 text-2xl text-center duration-300 ease hover:bg-indigo-400 hover:text-black font-semibold tracking-wider hover:scale-110 items-center gap-5'
+                        >
+                            Diploma Program
+                            <HugeiconsIcon icon={FolderClosedIcon} size={30} />
+                        </div>
+
+
+                        {/* HAMBURGER */}
+                        <button
+                            onClick={() => setMenuOpen((prev) => !prev)}
+                            className="md:hidden fixed bottom-6 right-6 z-50 bg-indigo-500 text-white p-4 rounded-full shadow-lg"
+                        >
+                            <HugeiconsIcon
+                                icon={menuOpen ? Cancel01Icon : Menu01Icon}
+                                size={30}
+                            />
+                        </button>
+
+                        {/* MOBILE MENU */}
+                        <div
+                            className={`md:hidden fixed bottom-24 right-6 z-40 flex flex-col gap-3
+                            transition-all duration-300 ease-in-out origin-bottom-right
+
+                            ${menuOpen
+                                    ? "opacity-100 scale-100 translate-y-0"
+                                    : "opacity-0 scale-0 translate-y-10 pointer-events-none"
+                                }`}
+                        >
+                            <div onClick={() => navigate("/be")} className="bg-indigo-500 text-white px-5 py-4 rounded-2xl">
+                                BE/UG Academic Program
+                            </div>
+
+                            <div onClick={() => navigate("/pg")} className="bg-indigo-500 text-white px-5 py-4 rounded-2xl">
+                                ME/PG Academic Program
+                            </div>
+
+                            <div onClick={() => navigate("/diploma")} className="bg-indigo-500 text-white px-5 py-4 rounded-2xl">
+                                Diploma Program
+                            </div>
+
+                        </div>
+
+                    </div>
 
                     <div className='flex md:flex-row flex-col container gap-0 md:gap-20 mx-auto mb-10'>
 
@@ -158,7 +237,6 @@ const Programs = () => {
 
 
                         </div>
-
 
                     </div>
 

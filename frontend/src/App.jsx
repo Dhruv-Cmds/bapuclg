@@ -6,6 +6,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Admission from "./components/Admission";
 import Programs from "./components/Programs";
+import Diploma from "./components/Diploma";
+import Be from "./components/Be";
+import Pg from "./components/Pg";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -22,6 +25,10 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/enquiry" element={<Enquiry />} />
 
+      <Route path="/diploma" element={<Diploma />} />
+      <Route path="/be" element={<Be />} />
+      <Route path="/pg" element={<Pg />} />
+      
     </Routes>
 
   )
