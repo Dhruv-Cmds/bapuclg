@@ -54,3 +54,14 @@ input::-webkit-outer-spin-button {
     transform: scale(1);
   }
 }
+
+
+::selection {
+  background-color: black;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: black;
+  color: white;
+}

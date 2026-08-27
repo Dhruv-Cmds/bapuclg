@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
+import { useNavigate } from "react-router-dom";
+
 const Admission = () => {
+
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        document.title = "Admission | BGKV"
+    })
+
     return (
         <>
 
@@ -1024,18 +1033,18 @@ const Admission = () => {
 
                         <p><span>GTU Website:</span> <a className='text-blue-600' href="https://www.gtu.ac.in">Click Here</a></p>
 
-                        <div><span>ACPC websites:</span> 
-                        <p></p>
-                        <a className='text-blue-600 mr-2 ml-1' href="https://gujacpc.admissions.nic.in">Link 1</a>
-                        <span className='border-r'></span>
-                        <a className='text-blue-600 ml-2' href="https://acpc.gujarat.gov.in">Link 2</a>
+                        <div><span>ACPC websites:</span>
+                            <p></p>
+                            <a className='text-blue-600 mr-2 ml-1' href="https://gujacpc.admissions.nic.in">Link 1</a>
+                            <span className='border-r'></span>
+                            <a className='text-blue-600 ml-2' href="https://acpc.gujarat.gov.in">Link 2</a>
                         </div>
 
                         <p><span>ACPC website for Nursing:</span> <a className='text-blue-600' href="http://www.medadmgujarat.org/">Click Here</a></p>
 
                     </div>
 
-                    <p>Want to Apply For Admission ? <a className='text-blue-600' href="Enquiry.jsx">Click Here</a></p>
+                    <p>Want to Apply For Admission ? <a className='text-blue-600' onClick={() => navigate("/enquiry")}>Click Here</a></p>
 
                     <p>Check the Management Quota admission notification, eligibility, and important dates.<a className='text-blue-600' href="https://bapugkv.ac.in/wp-content/uploads/2023/07/MQ-Notification.pdf" target='_blank' >Click Here</a></p>
 

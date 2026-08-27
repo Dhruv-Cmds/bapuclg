@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
 const About = () => {
+
+    useEffect(() => {
+        document.title = "About | BGKV"
+    })
 
     return (
         <>

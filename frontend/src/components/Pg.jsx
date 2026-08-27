@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
@@ -13,14 +13,10 @@ const Pg = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleScroll = () => {
-    document.getElementById("/diploma")?.scrollIntoView({
-      behavior: "smooth",
-    });
 
-
-    setMenuOpen(false);
-  };
+  useEffect(() => {
+    document.title = "ME/PG | BGKV"
+  })
 
   return (
     <>
@@ -90,60 +86,42 @@ const Pg = () => {
 
               <div className='bg-gray-50 mt-10 p-5 rounded-3xl'>
 
-                <h2 className='text-2xl tracking-wider font-semibold'>BE/UG Academic Program</h2>
+                <h2 className='text-2xl tracking-wider font-semibold'>ME/PG Academic Program</h2>
               </div>
 
               <div className='bg-gray-50 mt-10 p-5 rounded-3xl'>
 
-                <h3 className='mt-5 text-xl font-medium'>1. Computer Engineering</h3>
+                <h3 className='mt-5 text-xl font-medium'>1. Computer Engineering (Software Engineering)</h3>
 
-                <p className='mt-5 text-lg'>The Computer Engineering Department at <span className='font-semibold'>Shankersinh Vaghela Bapu Institute of Technology (SVBIT) </span> offers a dynamic learning environment for students with an intake of 60, under the affiliation of Gujarat Technological University (GTU). The department dedicates itself to delivering robust computer science fundamentals and practical experience with cutting-edge technologies. Students are encouraged to enhance their skills through coding competitions, workshops, research projects, and industry interactions. With experienced faculty, well-equipped laboratories, and a focus on innovation, the department aims to prepare students for successful careers in software development, data science, artificial intelligence, and emerging fields of technology.</p>
+                <p className='mt-5 text-lg'>The post-graduate program in <span className='font-semibold'>Computer Engineering (Software Engineering) </span> at SVBIT, with an intake of 24, is designed to deepen students’ understanding of advanced software development, algorithms, and emerging technologies. The program emphasizes research, practical projects, and industry exposure, enabling students to develop innovative solutions and prepare for careers in software design, development, and research-driven roles.</p>
 
               </div>
 
 
               <div className='bg-gray-50 mt-10 p-5 rounded-3xl'>
 
-                <h3 className='mt-5 text-xl font-medium'>2.  Information Technology</h3>
+                <h3 className='mt-5 text-xl font-medium'>2. Mechanical Engineering (Production)</h3>
 
-                <p className='mt-5 text-lg'>The Information Technology Department at <span className='font-semibold'>Shankersinh Vaghela Bapu Institute of Technology (SVBIT) </span> offers an intake of 60 students and is affiliated with Gujarat Technological University (GTU). The department focuses on building a strong foundation in core IT concepts while keeping pace with rapidly changing industry trends. Students get exposure to areas like programming, databases, networking, cloud computing, cybersecurity, and web technologies, supported by well­ equipped labs and dedicated faculty. The department emphasizes practical learning through projects, internships, and industry interactions, helping students to become skilled IT professionals ready to contribute to the digital world.</p>
+                <p className='mt-5 text-lg'>The post-graduate program in  <span className='font-semibold'>Mechanical Engineering (Production)</span> intake of 24 students, focuses on advanced manufacturing processes, production management, and automation. Students gain practical skills through laboratories, workshops, and industry projects, preparing them to tackle complex production challenges and contribute to modern manufacturing and industrial innovation.</p>
 
               </div>
 
               <div className='bg-gray-50 mt-10 p-5 rounded-3xl'>
 
-                <h3 className='mt-5 text-xl font-medium'>3. Civil Engineering
+                <h3 className='mt-5 text-xl font-medium'>3. . Electrical Engineering
 
                 </h3>
 
-                <p className='mt-5 text-lg'>The Civil Engineering Department at  <span className='font-semibold'>Shankersinh Vaghela Bapu Institute of Technology (SVBIT),</span> with an intake of 30 students and affiliation to Gujarat Technological University (GTU), is dedicated to shaping future builders of society. The department provides a strong academic foundation along with practical exposure to core areas such as structural engineering, surveying, construction technology, transportation, and environmental engineering. Equipped with modem laboratories and guided by experienced faculty, the department encourages students to gain hands-on experience through site visits, projects, and workshops. With a focus on innovation and sustainability, the Civil Engineering Department prepares students to meet real-world challenges and contribute to infrastructure development with skill and responsibility.</p>
+                <p className='mt-5 text-lg'>The post-graduate program in b<span className='font-semibold'> Electrical Engineering</span> with an intake of 24, equips students with advanced knowledge in power systems, control systems, and renewable energy technologies. The program blends theory, hands-on projects, and research opportunities, preparing graduates to excel in both industry and academic research in the evolving energy sector.</p>
 
               </div>
 
               <div className='bg-gray-50 mt-10 p-5 rounded-3xl'>
 
-                <h3 className='mt-5 text-xl font-medium'>4. Mechanical Engineering
+                <h3 className='mt-5 text-xl font-medium'>4. Electronics & Communication
                 </h3>
 
-                <p className='mt-5 text-lg'>The Mechanical Engineering Department at  <span className='font-semibold'>Shankersinh Vaghela Bapu Institute of Technology (SVBIT),</span> admits 30 students each year under the affiliation of Gujarat Technological University (GTU). The department emphasizes strong fundamentals in design, manufacturing, thermal sciences, and automation while fostering innovation and creative problem-solving. With advanced laboratories, modem tools, and dedicated faculty, students gain both theoretical knowledge and practical skills. The department regularly organizes workshops, industrial visits, and projects to ensure students are well-prepared for careers in core industries, research, and emerging fields like robotics and renewable energy.</p>
-
-              </div>
-
-              <div className='bg-gray-50 mt-10 p-5 rounded-3xl'>
-
-                <h3 className='mt-5 text-xl font-medium'>5. Electrical Engineering
-                </h3>
-
-                <p className='mt-5 text-lg'>The Electrical Engineering Department at  <span className='font-semibold'>Shankersinh Vaghela Bapu Institute of Technology (SVBIT),</span> with an intake of 30 students and affiliation to Gujarat Technological University (GTU), focuses on creating skilled engineers with strong knowledge of power systems, electrical machines, control systems, and renewable energy technologies. The department provides well­ equipped laboratories, modern tools, and guidance from experienced faculty to ensure a balance of theory and practical learning. Through workshops, projects, and industry interactions, students are encouraged to develop innovative solutions and become competent professionals ready to meet the challenges of the energy and technology sectors.</p>
-
-              </div>
-
-              <div className='bg-gray-50 mt-10 p-5 rounded-3xl'>
-
-                <h3 className='mt-5 text-xl font-medium'>6. Electronics & Communication
-                </h3>
-
-                <p className='mt-5 text-lg'>The Electronics & Communication  Engineering Department at  <span className='font-semibold'>Shankersinh Vaghela Bapu Institute of Technology (SVBIT),</span> offers an intake of 30 students and is affiliated with Gujarat Technological University (GTU). The department emphasizes a strong blend of electronics, communication systems, embedded technologies, and modern digital applications. Students gain hands-on learning through well-equipped laboratories, projects, and workshops that connect theory with real-world applications. With guidance from experienced faculty and exposure to industry practices, the department prepares students to excel in fields like VLSI, embedded systems, wireless communication, IoT, and advanced electronics, shaping them into competent and innovative engineers.</p>
+                <p className='mt-5 text-lg'>The post-graduate program in <span className='font-semibold'>Shankersinh Vaghela Bapu Institute of Technology (SVBIT),</span> having a 24 intake, focuses on advanced communication systems, embedded technologies, VLSI, and IoT applications. Students engage in research, projects, and practical training, enabling them to develop innovative solutions and excel in high-tech industries and research environments.</p>
 
               </div>
 

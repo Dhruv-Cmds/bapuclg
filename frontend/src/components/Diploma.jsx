@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 const Diploma = () => {
 
     const navigate = useNavigate();
-    
+
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleScroll = () => {
@@ -22,6 +22,10 @@ const Diploma = () => {
 
         setMenuOpen(false);
     };
+
+    useEffect(() => {
+        document.title = "Diploma | BGKV"
+    })
 
     return (
         <>

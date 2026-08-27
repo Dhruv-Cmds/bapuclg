@@ -1,9 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import { UserStar } from '@hugeicons/core-free-icons'
 
 function Enquiry() {
+
+  useEffect(() => {
+    document.title = "Enquiry | BGKV"
+  })
 
   const [a] = useState(Math.floor(Math.random() * 9));
   const [b] = useState(Math.floor(Math.random() * 9));

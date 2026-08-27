@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { HugeiconsIcon } from "@hugeicons/react";
 import { GraduationCapIcon } from "@hugeicons/core-free-icons";
 import Footer from './Footer'
@@ -15,6 +15,10 @@ function Main() {
   ];
 
   const marqueeCompanies = Array.from({ length: 12 }, () => companies).flat();
+
+  useEffect(() => {
+    document.title = "Best College in Gandhinagar, Gujarat | Bapu Gujarat Knowledge Village"
+  })
 
   return (
 
