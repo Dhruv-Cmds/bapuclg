@@ -10,6 +10,8 @@ function Navbar() {
     ['About', '/about'],
     ['Admission', '/admission'],
     ['Programs', '/programs'],
+    ['Campus', '/campus'],
+    ['Career', '/career'],
     ['Contact Us', '/contact'],
   ]
 

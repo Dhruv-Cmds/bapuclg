@@ -108,7 +108,7 @@ function Main() {
             </div>
 
             <div className='w-full lg:w-1/3 flex justify-center'>
-              <img className='w-full max-w-md rounded-3xl object-cover' src="./asset/shankersinh_vaghela.jpg" alt="Shri Shankersinh L. Vaghela" />
+              <img className='w-full max-w-md rounded-3xl object-cover' src="./bapuclg/asset/shankersinh_vaghela.jpg" alt="Shri Shankersinh L. Vaghela" />
             </div>
 
           </div>
