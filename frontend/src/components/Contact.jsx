@@ -6,7 +6,7 @@ const Contact = () => {
 
   useEffect(() => {
     document.title = "Contact | BGKV"
-  })
+  }, [])
 
     return (
 

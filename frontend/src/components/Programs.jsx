@@ -16,7 +16,6 @@ const Programs = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
 
-
     useEffect(() => {
         document.title = "Program";
     }, [])

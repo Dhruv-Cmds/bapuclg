@@ -15,7 +15,7 @@ const Be = () => {
 
   useEffect(() => {
     document.title = "BG/UG | BGKV"
-  })
+  }, [])
 
   return (
     <>

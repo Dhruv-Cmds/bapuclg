@@ -7,7 +7,7 @@ function Enquiry() {
 
   useEffect(() => {
     document.title = "Enquiry | BGKV"
-  })
+  }, [])
 
   const [a] = useState(Math.floor(Math.random() * 9));
   const [b] = useState(Math.floor(Math.random() * 9));

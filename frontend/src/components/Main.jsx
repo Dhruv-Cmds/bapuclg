@@ -18,7 +18,7 @@ function Main() {
 
   useEffect(() => {
     document.title = "Best College in Gandhinagar, Gujarat | Bapu Gujarat Knowledge Village"
-  })
+  }, [])
 
   return (
 

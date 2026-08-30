@@ -17,7 +17,7 @@ const Faculty = () => {
 
     useEffect(() => {
         document.title = "Faculty | BGKV"
-    })
+    }, [])
 
     return (
         <>

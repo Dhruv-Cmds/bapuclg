@@ -6,7 +6,7 @@ const About = () => {
 
     useEffect(() => {
         document.title = "About | BGKV"
-    })
+    }, [])
 
     return (
         <>

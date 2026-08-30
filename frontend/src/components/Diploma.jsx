@@ -25,7 +25,7 @@ const Diploma = () => {
 
     useEffect(() => {
         document.title = "Diploma | BGKV"
-    })
+    }, [])
 
     return (
         <>

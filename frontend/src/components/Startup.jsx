@@ -17,7 +17,7 @@ const Startup = () => {
 
     useEffect(() => {
         document.title = "Startup | BGKV"
-    })
+    }, [])
 
     return (
         <>

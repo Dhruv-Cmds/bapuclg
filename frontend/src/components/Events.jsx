@@ -17,7 +17,7 @@ const Events = () => {
 
     useEffect(() => {
         document.title = "Events | BGKV"
-    })
+    }, [])
 
     return (
         <>

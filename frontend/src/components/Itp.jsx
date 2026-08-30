@@ -15,9 +15,9 @@ const Itp = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
 
-      useEffect(() => {
+    useEffect(() => {
         document.title = "Itp | BGKV"
-      })
+    }, [])
 
     return (
         <>

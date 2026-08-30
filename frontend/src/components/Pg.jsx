@@ -16,7 +16,7 @@ const Pg = () => {
 
   useEffect(() => {
     document.title = "ME/PG | BGKV"
-  })
+  }, [])
 
   return (
     <>

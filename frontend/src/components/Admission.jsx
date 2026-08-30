@@ -10,7 +10,7 @@ const Admission = () => {
 
     useEffect(() => {
         document.title = "Admission | BGKV"
-    })
+    }, [])
 
     return (
         <>

@@ -18,7 +18,7 @@ const Affiliation = () => {
 
     useEffect(() => {
         document.title = "Affiliation | BGKV"
-    })
+    }, [])
 
     return (
         <>

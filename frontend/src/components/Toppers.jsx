@@ -17,7 +17,7 @@ const Toppers = () => {
 
     useEffect(() => {
         document.title = "Toppers | BGKV"
-    })
+    }, [])
 
     return (
         <>

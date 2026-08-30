@@ -26,6 +26,14 @@ import Toppers from "./components/Toppers";
 import Placement from "./components/Placement";
 import Startup from "./components/Startup";
 
+import Library from "./components/Library";
+import Nss from "./components/Nss";
+import Ncc from "./components/Ncc";
+import Counseling from "./components/Counseling";
+import Grievance from "./components/Grievance";
+import AntiRagging from "./components/AntiRagging";
+import Wdc from "./components/Wdc";
+
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -58,6 +66,14 @@ function App() {
       <Route path="/toppers" element={<Toppers />} />
       <Route path="/placement" element={<Placement />} />
       <Route path="/Startup" element={<Startup />} />
+
+      <Route path="/library" element={<Library />} />
+      <Route path="/nss" element={<Nss />} />
+      <Route path="/ncc" element={<Ncc />} />
+      <Route path="/counsel" element={<Counseling />} />
+      <Route path="/grievance" element={<Grievance />} />
+      <Route path="/anti" element={<AntiRagging />} />
+      <Route path="/wdc" element={<Wdc />} />
       
     </Routes>
 

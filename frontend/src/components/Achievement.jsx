@@ -17,7 +17,7 @@ const Achievement = () => {
 
     useEffect(() => {
         document.title = "Achievement | BGKV"
-    })
+    }, [])
 
     return (
         <>

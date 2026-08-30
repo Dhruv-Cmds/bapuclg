@@ -17,7 +17,7 @@ const Placement = () => {
 
     useEffect(() => {
         document.title = "Placement | BGKV"
-    })
+    }, [])
 
     return (
         <>

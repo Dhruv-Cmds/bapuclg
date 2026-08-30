@@ -17,7 +17,7 @@ const Techviden = () => {
 
     useEffect(() => {
         document.title = "Teachviden | BGKV"
-    })
+    }, [])
 
     return (
         <>

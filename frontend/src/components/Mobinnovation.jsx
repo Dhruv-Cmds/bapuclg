@@ -17,7 +17,7 @@ const Mobinnovation = () => {
 
     useEffect(() => {
         document.title = "Mobinnovation | BGKV"
-    })
+    }, [])
 
     return (
         <>
