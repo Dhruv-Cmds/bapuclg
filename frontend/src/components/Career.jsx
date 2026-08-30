@@ -24,6 +24,7 @@ const Career = () => {
 
             <a className={`p-5 text-xl rounded-3xl hover:scale-110 font-medium duration-300 ease transition-all md:w-100 text-center ${swapped ? "bg-purple-500" : "bg-indigo-500"}`}
               href="https://bapugkv.ac.in/wp-content/uploads/2026/01/Application-format.pdf"
+              target='_blank'
               onMouseEnter={() => setSwapped(true)}
               onMouseLeave={() => setSwapped(false)}>
               Application Format for Recruitment
@@ -31,6 +32,7 @@ const Career = () => {
 
             <a className={`p-5 text-xl rounded-3xl hover:scale-110 font-medium duration-300 ease transition-all md:w-100 text-center ${swapped ? "bg-indigo-500" : "bg-purple-500"}`}
               href="https://bapugkv.ac.in/wp-content/uploads/2026/01/ADVT-1.pdf0"
+              target='_blank'
               onMouseEnter={() => setSwapped(false)}
               onMouseLeave={() => setSwapped(true)}
             >

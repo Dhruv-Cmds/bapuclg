@@ -137,16 +137,16 @@ const Wdc = () => {
                             <div className="w-30 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                         </div>
 
-                        <div className='grid md:grid-cols-3 mt-15 mb-10 gap-5 grid-cols-1 items-center'>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-15 mb-10 gap-5 items-start'>
 
                             {photos.map((photo, index) => (
                                 <div
                                     key={index}
                                     className="md:bg-white md:pt-0 md:mx-0 rounded-2xl bg-blue-100 pt-2 mx-2"
                                 >
-                                    <div className="md:w-120 mx-2 flex flex-col md:gap-0 gap-2 items-center">
+                                    <div className="w-full min-w-0 px-2 flex flex-col gap-2 items-center">
                                         <img
-                                            className="w-full h-full object-contain"
+                                            className="block w-full h-auto max-w-full object-contain"
                                             src={photo.src}
                                             alt=""
                                         />

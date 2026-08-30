@@ -33,6 +33,8 @@ import Counseling from "./components/Counseling";
 import Grievance from "./components/Grievance";
 import AntiRagging from "./components/AntiRagging";
 import Wdc from "./components/Wdc";
+import Sport from "./components/Sport";
+import Download from "./components/Download";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -74,6 +76,8 @@ function App() {
       <Route path="/grievance" element={<Grievance />} />
       <Route path="/anti" element={<AntiRagging />} />
       <Route path="/wdc" element={<Wdc />} />
+      <Route path="/sports" element={<Sport />} />
+      <Route path="/download" element={<Download />} />
       
     </Routes>
 
