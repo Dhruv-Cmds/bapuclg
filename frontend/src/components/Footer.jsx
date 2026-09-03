@@ -7,7 +7,7 @@ function Footer() {
 
         <div className="container px-5 mx-auto md:flex flex-row items-center hidden">
 
-          <img className='w-50 mb-30' src="/bapuclg/asset/footer.webp" alt="" />
+          <img className='w-50 mb-30' src="/bapuclg/asset/footer.webp1" alt="" />
 
           <div className="grow flex justify-between flex-wrap pl-20">
 

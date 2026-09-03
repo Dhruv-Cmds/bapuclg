@@ -46,9 +46,9 @@ const Toppers = () => {
                                         <div
                                             key={num}
                                             className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                            onClick={() => setPreview(`./asset/bt${num}.webp`)}
+                                            onClick={() => setPreview(`./asset/bt${num}.webp1`)}
                                         >
-                                            <img src={`./asset/bt${num}.webp`} alt="" />
+                                            <img src={`./asset/bt${num}.webp1`} alt="" />
 
                                             <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                                 <p className="text-white">Click to View →</p>

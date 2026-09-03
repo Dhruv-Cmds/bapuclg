@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@hugeicons/react": "^1.1.10",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.2"
@@ -24,5 +25,10 @@
     "oxlint": "^1.75.0",
     "tailwindcss": "^4.3.3",
     "vite": "^8.2.0"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

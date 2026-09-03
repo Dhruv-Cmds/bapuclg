@@ -16,16 +16,64 @@ function Enquiry() {
 
   const c = a + b;
 
-  function checkAnswer() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    number: "",
+    city: "",
+    state: "",
+    institute: "",
+    question: ""
+  });
 
-    if (Number(answer) === c) {
-      alert("Correct!");
-    }
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
 
-    else {
+
+  async function checkAnswer() {
+
+    if (Number(answer) !== c) {
       alert("Wrong answer");
+      return;
     }
 
+    try {
+      const response = await fetch("http://localhost:3000/api/enquiries", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || "Something went wrong");
+      }
+
+      alert("Enquiry submitted successfully!");
+
+      setFormData({
+        name: "",
+        email: "",
+        number: "",
+        city: "",
+        state: "",
+        institute: "",
+        question: ""
+      });
+
+      setAnswer("");
+
+    } catch (error) {
+      console.log(error);
+      alert("Failed to submit enquiry");
+    }
   }
 
   return (
@@ -43,34 +91,86 @@ function Enquiry() {
             <div>
 
               <div className='p-2 m-1 mb-6 bg-white rounded-3xl'>
-                <input className='w-full outline-none' type="text" placeholder='Name' id='name' />
+
+                <input className='w-full outline-none'
+                  name="name"
+                  type="text"
+                  placeholder='Name'
+                  value={formData.name}
+                  onChange={handleChange}
+                />
+
               </div>
 
               <div className='md:flex space-x-10'>
-                <input type="email" placeholder='Email Address' id="email" className='outline-none bg-white rounded-3xl p-2 m-1 mb-6 w-full' />
-                <input type="number" placeholder='Mobile Number' id="number" className='outline-none appearance-none bg-white rounded-3xl p-2 m-1 mb-6 w-full' />
+
+                <input
+                  name="email"
+                  type="email"
+                  placeholder='Email Address'
+                  value={formData.email}
+                  onChange={handleChange}
+                  className='outline-none bg-white rounded-3xl p-2 m-1 mb-6 w-full' />
+
+                <input
+                  name="number"
+                  type="number"
+                  placeholder='Mobile Number'
+                  value={formData.number}
+                  onChange={handleChange}
+                  className='outline-none appearance-none bg-white rounded-3xl p-2 m-1 mb-6 w-full'
+                />
+
               </div>
 
               <div className='md:flex space-x-10'>
-                <input type="text" placeholder='City' id="city" className='outline-none bg-white rounded-3xl p-2 m-1 mb-6 w-full' />
-                <input type="text" placeholder='State' id="state" className='outline-none bg-white rounded-3xl p-2 m-1 mb-6 w-full' />
+                <input
+                  name="city"
+                  type="text"
+                  placeholder='City'
+                  value={formData.city}
+                  onChange={handleChange}
+                  className='outline-none bg-white rounded-3xl p-2 m-1 mb-6 w-full'
+                />
+
+                <input
+                  name="state"
+                  type="text"
+                  placeholder='State'
+                  value={formData.state}
+                  onChange={handleChange}
+                  className='outline-none bg-white rounded-3xl p-2 m-1 mb-6 w-full'
+                />
+
               </div>
 
               <div>
 
-                <select className='outline-none bg-white text-[#858585] rounded-3xl p-2 m-1 mb-6 w-full' name="institute">
+                <select className='outline-none bg-white text-[#858585] rounded-3xl p-2 m-1 mb-6 w-full'
+                  name="institute"
+                  value={formData.institute}
+                  onChange={handleChange}>
+
                   <option value="">Institute Applying For</option>
                   <option value="Technology">Technology</option>
                   <option value="Pharmacy">Pharmacy</option>
                   <option value="Science & Commerce">Science & Commerce</option>
                   <option value="Law">Law</option>
                   <option value="Nursing">Nursing</option>
+
                 </select>
 
               </div>
 
               <div>
-                <textarea className='w-full outline-none bg-white rounded-3xl p-2 m-1 mb-6' id="" placeholder='Type your enquiry here'></textarea>
+
+                <textarea className='w-full outline-none bg-white rounded-3xl p-2 m-1 mb-6'
+                  name="question"
+                  placeholder='Type your enquiry here'
+                  value={formData.question}
+                  onChange={handleChange}>
+
+                </textarea>
               </div>
 
             </div>

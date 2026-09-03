@@ -44,9 +44,9 @@ const Itp = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/itp1.webp")}
+                                    onClick={() => setPreview("./asset/itp1.webp1")}
                                 >
-                                    <img src="./asset/itp1.webp" alt="" />
+                                    <img src="./asset/itp1.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">
@@ -58,9 +58,9 @@ const Itp = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/itp2.webp")}
+                                    onClick={() => setPreview("./asset/itp2.webp1")}
                                 >
-                                    <img src="./asset/itp2.webp" alt="" />
+                                    <img src="./asset/itp2.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">
@@ -72,9 +72,9 @@ const Itp = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/itp3.webp")}
+                                    onClick={() => setPreview("./asset/itp3.webp1")}
                                 >
-                                    <img src="./asset/itp3.webp" alt="" />
+                                    <img src="./asset/itp3.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">
@@ -86,9 +86,9 @@ const Itp = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/itp4.webp")}
+                                    onClick={() => setPreview("./asset/itp4.webp1")}
                                 >
-                                    <img src="./asset/itp4.webp" alt="" />
+                                    <img src="./asset/itp4.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">
@@ -100,9 +100,9 @@ const Itp = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/itp5.webp")}
+                                    onClick={() => setPreview("./asset/itp5.webp1")}
                                 >
-                                    <img src="./asset/itp5.webp" alt="" />
+                                    <img src="./asset/itp5.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">
@@ -114,9 +114,9 @@ const Itp = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/itp6.webp")}
+                                    onClick={() => setPreview("./asset/itp6.webp1")}
                                 >
-                                    <img src="./asset/itp6.webp" alt="" />
+                                    <img src="./asset/itp6.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">

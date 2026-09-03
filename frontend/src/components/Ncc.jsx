@@ -10,21 +10,21 @@ const Ncc = () => {
 
     const photos = [
         {
-            src: "./asset/nc2.webp",
+            src: "./asset/nc2.webp1",
             text: 'A Report on “Old Age Home Visit” 09/01/2026',
         },
         {
-            src: "./asset/nc3.webp",
+            src: "./asset/nc3.webp1",
             text: 'Tree plantation Event on the occasion of World Environment Day',
         },
 
         {
-            src: "./asset/nc4.webp",
+            src: "./asset/nc4.webp1",
             text: 'The National Cadet Corps, a national-level student-oriented and student welfare course, was started in 2019 at the BapuGKV Campus. 31 SD (boys) vacancies and 19 SW (girls) vacancies have been allotted from 2 Gujarat Indep Coy NCC, Sector 15, Gandhinagar. Currently, 50 cadets are undergoing NCC training and are learning the lessons of human values and discipline from this prestigious course.',
         },
 
         {
-            src: "./asset/nc5.webp",
+            src: "./asset/nc5.webp1",
             text1: 'I am delighted to share the wonderful news that our student, Patel Urmi, from the Information Technology Department (En. No. 190750116025), has earned a GOLD Medal in the category of Best SW among a total of 243 students at the National Cadet Corps (NCC) CATC camp held at Headquarters Ahmedabad. This prestigious camp was organized by the 2nd Gujarat Indeep Coy NCC. It is worth mentioning that Patel Urmi holds the position of Senior Under Officer at our college in NCC. Please join me in extending heartfelt congratulations to Patel Urmi for this remarkable achievement.',
 
             text2: 'Also I am delighted to share the wonderful news that our student, Mistry Khusboo, from the Computer Department (En. No. 210750107021), has earned a GOLD Medal in the category of Best Cultural Group performance among a total of 15 groups at the National Cadet Corps (NCC) CATC camp held at Headquarters Ahmedabad. This prestigious camp was organized by the 2nd Gujarat Indeep Coy NCC. It is worth mentioning that  Mistry Khusboo holds the position of Junior Under Officer at our college in NCC. Please join me in extending heartfelt congratulations to Mistry Khusboo for this remarkable achievement',
@@ -39,7 +39,7 @@ const Ncc = () => {
                 <Navbar />
 
                 <div className='mt-1'>
-                    <img className='w-full' src="/bapuclg/asset/nccbanner.webp" alt="" />
+                    <img className='w-full' src="/bapuclg/asset/nccbanner.webp1" alt="" />
                 </div>
 
 
@@ -49,7 +49,7 @@ const Ncc = () => {
 
                         <div className='flex flex-col items-center gap-10 xl:flex-row xl:items-center xl:gap-20'>
 
-                            <img className='w-800 rounded-2xl px-2' src="./asset/nc1.webp" alt="" />
+                            <img className='w-800 rounded-2xl px-2' src="./asset/nc1.webp1" alt="" />
 
                             <div>
 

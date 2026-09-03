@@ -84,7 +84,7 @@ const Sport = () => {
 
                             <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col gap-10 saturate-100">
 
-                                <img className='w-70' src="./asset/sp1.webp" alt="" />
+                                <img className='w-70' src="./asset/sp1.webp1" alt="" />
 
                                 <div class="grow sm:text-left text-center mt-6 sm:mt-0">
 
@@ -107,13 +107,13 @@ const Sport = () => {
 
                                 </div>
 
-                                <img className='w-70' src="./asset/sp2.webp" alt="" />
+                                <img className='w-70' src="./asset/sp2.webp1" alt="" />
 
                             </div>
 
                             <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col gap-10">
 
-                                <img className='w-70' src="./asset/sp3.webp" alt="" />
+                                <img className='w-70' src="./asset/sp3.webp1" alt="" />
                                 <div class="grow sm:text-left text-center mt-6 sm:mt-0">
 
                                     <h2 class="text-gray-900 text-lg title-font font-medium mb-2">International Sports Achievements</h2>
@@ -137,7 +137,7 @@ const Sport = () => {
 
                                 </div>
 
-                                <img className='w-70' src="./asset/sp4.webp" alt="" />
+                                <img className='w-70' src="./asset/sp4.webp1" alt="" />
 
                             </div>
 

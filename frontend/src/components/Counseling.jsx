@@ -24,7 +24,7 @@ const Counseling = () => {
 
                             <div className='relative group'>
 
-                                <img className='w-500 rounded-2xl px-2' src="./asset/c1.webp" alt="" />
+                                <img className='w-500 rounded-2xl px-2' src="./asset/c1.webp1" alt="" />
                     
                             </div>
 

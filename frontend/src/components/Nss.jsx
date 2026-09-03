@@ -10,31 +10,31 @@ const Nss = () => {
 
   const photos = [
     {
-      src: "./asset/n2.webp",
+      src: "./asset/n2.webp1",
       text: 'A Report on “Old Age Home Visit” 09/01/2026',
     },
     {
-      src: "./asset/n3.webp",
+      src: "./asset/n3.webp1",
       text: '“AIDS Prevention & Awareness” 01/12/24',
     },
     {
-      src: "./asset/n4.webp",
+      src: "./asset/n4.webp1",
       text: 'A Report on “Temple Cleaning” 21/01/2024',
     },
     {
-      src: "./asset/n5.webp",
+      src: "./asset/n5.webp1",
       text: 'A Report on “Vibrant@2024” 11/01/2024',
     },
     {
-      src: "./asset/n6.webp",
+      src: "./asset/n6.webp1",
       text: 'A Report on “Run for Unity” 30/10/2023',
     },
     {
-      src: "./asset/n7.webp",
+      src: "./asset/n7.webp1",
       text: 'A Report on “Science City Visit” 12/09/2023',
     },
     {
-      src: "./asset/n8.webp",
+      src: "./asset/n8.webp1",
       text: 'A Report on “Tree Plantation” 23/08/2023',
     },
   ];
@@ -51,7 +51,7 @@ const Nss = () => {
 
             <div className='flex flex-col items-center gap-10 xl:flex-row xl:items-center xl:gap-20'>
 
-              <img className='w-500 md:max-w-max rounded-2xl px-2' src="./asset/n1.webp" alt="" />
+              <img className='w-500 md:max-w-max rounded-2xl px-2' src="./asset/n1.webp1" alt="" />
 
               <div>
 

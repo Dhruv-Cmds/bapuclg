@@ -6,47 +6,47 @@ const Wdc = () => {
 
     const photos = [
         {
-            src: "./asset/wdc1.webp",
+            src: "./asset/wdc1.webp1",
             title: `"HIVIAIDS Awareness: Empowering through Education" 12/09/2024`,
         },
         {
-            src: "./asset/wdc2.webp",
+            src: "./asset/wdc2.webp1",
             title: `A Report on “Women Talent Hunt” 15/03/2023`,
         },
         {
-            src: "./asset/wdc3.webp",
+            src: "./asset/wdc3.webp1",
             title: `WDC Report on KITE DECORATION 13/01/2023`,
         },
         {
-            src: "./asset/wdc4.webp",
+            src: "./asset/wdc4.webp1",
             title: `A Report on One day Workshop on “HIV/AIDS Awareness & Diwali Thali Decoration 18/06/2022`,
         },
         {
-            src: "./asset/wdc5.webp",
+            src: "./asset/wdc5.webp1",
             title: `WDC Report on International Women's Day 08/03/2022`,
         },
         {
-            src: "./asset/wdc6.webp",
+            src: "./asset/wdc6.webp1",
             title: `WDC Report on Women Empowerment 26-08-2021`,
         },
         {
-            src: "./asset/wdc7.webp",
+            src: "./asset/wdc7.webp1",
             title: `WDC Report on International Yoga Day 21-06-2021`,
         },
         {
-            src: "./asset/wdc8.webp",
+            src: "./asset/wdc8.webp1",
             title: `A Report on “International Women’s Day Celebration” on 08/03/2021`,
         },
         {
-            src: "./asset/wdc9.webp",
+            src: "./asset/wdc9.webp1",
             title: `Report on GUJCOST Sponsored workshop "Empowering Women: Inspiring Change" 11/02/2020`,
         },
         {
-            src: "./asset/wdc10.webp",
+            src: "./asset/wdc10.webp1",
             title: `“International Women’s Day” Celebration on 08/03/2019`,
         },
         {
-            src: "./asset/wdc11.webp",
+            src: "./asset/wdc11.webp1",
             title: `Report on Physical Activity & Women Health 30/01/2019`,
         },
     ];

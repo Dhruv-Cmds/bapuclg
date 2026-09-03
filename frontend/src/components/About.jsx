@@ -34,7 +34,7 @@ const About = () => {
 
                                 <div className="w-50 h-50 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
 
-                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/shankersinh_vaghela.jpg" alt="Shri Shankersinh L. Vaghela" alt="" />
+                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/shankersinh_vaghela1.jpg" alt="Shri Shankersinh L. Vaghela" alt="" />
 
                                 </div>
 
@@ -90,7 +90,7 @@ const About = () => {
 
                                 <div className="w-50 h-50 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
 
-                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/mgmnt3.webp" alt="Smt. Gulabba Shankersinh Vaghela" alt="" />
+                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/mgmnt31.webp" alt="Smt. Gulabba Shankersinh Vaghela" alt="" />
 
                                 </div>
 
@@ -146,7 +146,7 @@ const About = () => {
 
                                 <div className="w-50 h-50 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
 
-                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/mgmnt1.webp" alt="Shri Mahendrasinh S. Vaghela" alt="" />
+                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/mgmnt11.webp" alt="Shri Mahendrasinh S. Vaghela" alt="" />
 
                                 </div>
 
@@ -202,7 +202,7 @@ const About = () => {
 
                                 <div className="w-50 h-50 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
 
-                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/mgmnt4.webp" alt="Shri Bharatsinh S. Vaghela" alt="" />
+                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/mgmnt41.webp" alt="Shri Bharatsinh S. Vaghela" alt="" />
 
                                 </div>
 
@@ -258,7 +258,7 @@ const About = () => {
 
                                 <div className="w-50 h-50 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
 
-                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/mgmnt5.webp" alt="Smt. Jayendrakumariba V. Vaghela" alt="" />
+                                    <img className='w-50 h-50 max-w-md rounded-full object-cover' src="./asset/mgmnt51.webp" alt="Smt. Jayendrakumariba V. Vaghela" alt="" />
 
                                 </div>
 
@@ -324,7 +324,7 @@ const About = () => {
 
                                 <div className="flex w-full flex-col items-center lg:flex-row lg:space-x-40">
 
-                                    <img className='mb-10 w-full max-w-md rounded-3xl object-cover lg:mb-0' src="./asset/shankersinh_vaghela.jpg" alt="Shri Shankersinh L. Vaghela" alt="" />
+                                    <img className='mb-10 w-full max-w-md rounded-3xl object-cover lg:mb-0' src="./asset/shankersinh_vaghela1.jpg" alt="Shri Shankersinh L. Vaghela" alt="" />
 
 
                                     <p className='w-full'>
@@ -394,7 +394,7 @@ const About = () => {
 
                                 <div className="flex w-full flex-col items-center lg:flex-row lg:space-x-40">
 
-                                    <img className='mb-10 w-full max-w-md rounded-3xl object-cover lg:mb-0' src="./asset/mgmnt4.webp" alt="Shri Shankersinh L. Vaghela" alt="" />
+                                    <img className='mb-10 w-full max-w-md rounded-3xl object-cover lg:mb-0' src="./asset/mgmnt41.webp" alt="Shri Shankersinh L. Vaghela" alt="" />
 
                                     <p className='w-full'>
                                         The campus of Bapu Gujarat Knowledge Village (Bapu GKV Campus) is established with an aim to provide educational opportunities to all the deserving students. Bapu GKV campus believes that it has a role in the transformation of society. It is with this perspective that institutes in our campus offers wide range of courses in the fields of Pharmacy, Technology, Nursing, Law and Science & Commerce. In pursuance of the vision envisaged by Hon. Shri Shankersinh Vaghela Bapu the campus has been making sincere efforts to promote excellence in education. Since inception, the campus is facilitating students with an exciting and student friendly learning environment.. The tour of our campus through a short video film will make yourself confirm regarding the state of art infrastructure and our reputable standing in the field of education.
@@ -465,7 +465,7 @@ const About = () => {
 
                             <div className="py-8 flex flex-col items-center lg:flex-row lg:space-x-10">
 
-                                <img className='mb-10 w-100 max-w-md rounded-3xl object-cover lg:mb-0' src="./asset/abt.png" alt="Shri Shankersinh L. Vaghela" alt="" />
+                                <img className='mb-10 w-100 max-w-md rounded-3xl object-cover lg:mb-0' src="./asset/abt1.png" alt="Shri Shankersinh L. Vaghela" alt="" />
 
                                 <div className="w-full text-xl leading-relaxed space-y-5">
 

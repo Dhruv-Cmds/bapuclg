@@ -10,13 +10,13 @@ const Library = () => {
     }, [])
 
     const photos = [
-        "./asset/lib1.webp",
-        "./asset/lib2.webp",
-        "./asset/lib3.webp",
-        "./asset/lib4.webp",
-        "./asset/lib5.webp",
-        "./asset/lib6.webp",
-        "./asset/lib7.webp",
+        "./asset/lib1.webp1",
+        "./asset/lib2.webp1",
+        "./asset/lib3.webp1",
+        "./asset/lib4.webp1",
+        "./asset/lib5.webp1",
+        "./asset/lib6.webp1",
+        "./asset/lib7.webp1",
     ]
 
     const [current, setCurrent] = useState(0);

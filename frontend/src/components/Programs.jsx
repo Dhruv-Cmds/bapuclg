@@ -115,7 +115,7 @@ const Programs = () => {
 
                                 <div className='flex justify-center mt-2'>
 
-                                    <img className='w-100 rounded-4xl' src="./asset/Principle-sir.webp" alt="" />
+                                    <img className='w-100 rounded-4xl' src="./asset/Principle-sir.webp1" alt="" />
 
                                 </div>
 

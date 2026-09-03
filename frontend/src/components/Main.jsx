@@ -7,11 +7,11 @@ import Navbar from './Navbar'
 function Main() {
 
   const companies = [
-    ["/bapuclg/asset/Abbott.webp", "Abbott"],
-    ["/bapuclg/asset/INTAS.webp", "Intas"],
-    ["/bapuclg/asset/ZYDUS.webp", "Zydus"],
-    ["/bapuclg/asset/Mankind.webp", "Mankind"],
-    ["/bapuclg/asset/Torrent.webp", "Torrent Pharma"],
+    ["/bapuclg/asset/Abbott.webp1", "Abbott"],
+    ["/bapuclg/asset/INTAS.webp2", "Intas"],
+    ["/bapuclg/asset/ZYDUS.webp3", "Zydus"],
+    ["/bapuclg/asset/Mankind.webp4", "Mankind"],
+    ["/bapuclg/asset/Torrent.webp5", "Torrent Pharma"],
   ];
 
   const marqueeCompanies = Array.from({ length: 12 }, () => companies).flat();
@@ -30,7 +30,7 @@ function Main() {
         <Navbar />
 
         <div className='mt-1'>
-          <img className='w-full' src="/bapuclg/asset/banner.webp" alt="" />
+          <img className='w-full' src="/bapuclg/asset/banner.webp6" alt="" />
         </div>
 
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row mt-12 sm:mt-20 mb-12 sm:mb-20 items-stretch'>
@@ -108,7 +108,7 @@ function Main() {
             </div>
 
             <div className='w-full lg:w-1/3 flex justify-center'>
-              <img className='w-full max-w-md rounded-3xl object-cover' src="./bapuclg/asset/shankersinh_vaghela.jpg" alt="Shri Shankersinh L. Vaghela" />
+              <img className='w-full max-w-md rounded-3xl object-cover' src="./bapuclg/asset/shankersinh_vaghela7.jpg" alt="Shri Shankersinh L. Vaghela" />
             </div>
 
           </div>
@@ -140,37 +140,37 @@ function Main() {
               <div className="flex w-max animate-testimonial-marquee will-change-transform">
                 {[...Array(12)].flatMap(() => [
                   {
-                    image: '/bapuclg/asset/Ms.-Sneha-Amin-1.png',
+                    image: '/bapuclg/asset/Ms.-Sneha-Amin-1.png1',
                     name: 'Ms. Sneha Amin',
                     course: '3rd Semester B. Pharmacy, Batch 2024',
                     feedback: 'My experience at SVBIP has been very wonderful. It has been one year since I joined the college, and I have learned a lot, not only academically but also in many aspects of career development. Faculty members have been supportive throughout my journey.',
                   },
                   {
-                    image: '/bapuclg/asset/Patel-Shreya-Pravinbhai-2023-2024.png',
+                    image: '/bapuclg/asset/Patel-Shreya-Pravinbhai-2023-2024.png2',
                     name: 'Patel Shreya Pravinbhai',
                     course: 'Department of MLT, 2023-2024',
                     feedback: 'I feel very fortunate to be a part of the Department of MLT. The well-equipped and efficient laboratories have been a great assistance in my learning. The faculty members have always supported me and helped clarify my doubts throughout my academic journey.',
                   },
                   {
-                    image: '/bapuclg/asset/1._Patil-Komal-Parshuram.png',
+                    image: '/bapuclg/asset/1._Patil-Komal-Parshuram.png3',
                     name: 'Patil Komal Parshuram',
                     course: 'Science & Commerce',
                     feedback: 'It has been my immense luck and fortune to be a part of Shankersinh Vaghela Bapu Institute of Science and Commerce, where I have grown and learned so much. The faculty and department have helped shape my future and supported me throughout my journey.',
                   },
                   {
-                    image: '/bapuclg/asset/Patel-Jimmy-Amrutbhai-2023-2024.png',
+                    image: '/bapuclg/asset/Patel-Jimmy-Amrutbhai-2023-2024.png4',
                     name: 'Patel Jimmy Amrutbhai',
                     course: 'Department of MLT, 2023-2024',
                     feedback: 'The Department of MLT has been a great contributor to the development of my personality. I have established leadership, time management, and teamwork skills and have continued to improve these abilities throughout my academic journey.',
                   },
                   {
-                    image: '/bapuclg/asset/Monika-Patel.png',
+                    image: '/bapuclg/asset/Monika-Patel.png5',
                     name: 'Monika Patel',
                     course: 'SVBIL, className of 2022-2025',
                     feedback: 'My experience at Bapu College has been great and memorable. The mentors help students enhance their academic and interpersonal skills while providing practical training, valuable guidance, and opportunities to grow throughout their educational journey.',
                   },
                   {
-                    image: '/bapuclg/asset/Mr.-Madhav-Kataria.png',
+                    image: '/bapuclg/asset/Mr.-Madhav-Kataria.png6',
                     name: 'Mr. Madhav Kataria',
                     course: '7th Semester B. Pharmacy, Batch 2022',
                     feedback: 'SVBIP played an important role in my academic and personal growth. The faculty and supportive environment helped me gain knowledge, confidence, and practical experience throughout every semester of my academic journey.',

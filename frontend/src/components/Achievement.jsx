@@ -44,9 +44,9 @@ const Achievement = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/SACH1.webp")}
+                                    onClick={() => setPreview("./asset/SACH1.webp1")}
                                 >
-                                    <img src="./asset/SACH1.webp" alt="" />
+                                    <img src="./asset/SACH1.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">
@@ -57,9 +57,9 @@ const Achievement = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/SACH2.webp")}
+                                    onClick={() => setPreview("./asset/SACH2.webp1")}
                                 >
-                                    <img src="./asset/SACH2.webp" alt="" />
+                                    <img src="./asset/SACH2.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">
@@ -70,9 +70,9 @@ const Achievement = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/SACH3.webp")}
+                                    onClick={() => setPreview("./asset/SACH3.webp1")}
                                 >
-                                    <img src="./asset/SACH3.webp" alt="" />
+                                    <img src="./asset/SACH3.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">
@@ -83,9 +83,9 @@ const Achievement = () => {
 
                                 <div
                                     className="relative group cursor-pointer overflow-hidden rounded-xl"
-                                    onClick={() => setPreview("./asset/SACH4.webp")}
+                                    onClick={() => setPreview("./asset/SACH4.webp1")}
                                 >
-                                    <img src="./asset/SACH4.webp" alt="" />
+                                    <img src="./asset/SACH4.webp1" alt="" />
 
                                     <div className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
                                         <p className="text-white">
