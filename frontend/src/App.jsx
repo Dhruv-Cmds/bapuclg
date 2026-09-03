@@ -67,7 +67,7 @@ function App() {
       <Route path="/techviden" element={<Techviden />} />
       <Route path="/toppers" element={<Toppers />} />
       <Route path="/placement" element={<Placement />} />
-      <Route path="/Startup" element={<Startup />} />
+      <Route path="/startup" element={<Startup />} />
 
       <Route path="/library" element={<Library />} />
       <Route path="/nss" element={<Nss />} />

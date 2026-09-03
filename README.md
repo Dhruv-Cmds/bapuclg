@@ -67,50 +67,6 @@ This repository is suitable for continued development and deployment preparation
 
 The asset directory is ignored by Git. A fresh clone therefore needs the approved image/PDF assets copied into that directory before the website can display its complete content.
 
-## Local development
-
-### 1. Install dependencies
-
-Run each application independently:
-
-```bash
-cd backend
-npm ci
-
-cd ../frontend
-npm ci
-```
-
-### 2. Start MongoDB
-
-Start a local MongoDB service and ensure the `bapu` database is available. The current backend connects to:
-
-```text
-mongodb://localhost:27017/bapu
-```
-
-### 3. Start the API
-
-From the repository root:
-
-```bash
-cd backend
-npm start
-```
-
-The API listens on `http://localhost:3000`.
-
-### 4. Start the frontend
-
-In a second terminal:
-
-```bash
-cd frontend
-npm run dev
-```
-
-Open the Vite URL shown in the terminal. The application is configured with the `/bapuclg` router basename and Vite base path, so the production-style URL is typically:
-
 ```text
 http://localhost:5173/bapuclg/
 ```
@@ -154,35 +110,6 @@ npm run lint
 
 The backend currently has no automated test suite. `npm test` intentionally exits with a placeholder failure until API tests are added.
 
-## Deployment
-
-### Frontend on GitHub Pages
-
-The frontend already contains a `deploy` script that publishes `frontend/dist/`:
-
-```bash
-cd frontend
-npm ci
-npm run build
-npm run deploy
-```
-
-The Vite `base` and `BrowserRouter basename` are both `/bapuclg`. The GitHub Pages site must therefore be served from the `/bapuclg` project path unless those settings are changed. Configure the repository's Pages source and custom-domain settings to match the intended public URL.
-
-Because this is a client-side routed application, configure the static host to fall back to `index.html` for deep links such as `/bapuclg/admission` and `/bapuclg/enquiry`. Without that fallback, refreshing a nested route can return a 404.
-
-### Backend on a Node host
-
-Deploy `backend/` as a Node service:
-
-```bash
-npm ci
-npm start
-```
-
-Set the MongoDB URI, port, allowed frontend origin, and any platform-specific health-check configuration in the host environment. The backend should be deployed separately from GitHub Pages because GitHub Pages only serves static files.
-
-Before accepting public traffic, add a health endpoint, graceful shutdown handling, structured logging, request limits, input validation, rate limiting, and a restricted CORS policy. Use a managed MongoDB deployment with backups and network access controls rather than an unauthenticated local database.
 
 ## API reference
 
@@ -250,10 +177,9 @@ Validation or persistence errors currently return `400 Bad Request` with `{ "suc
 | `/enquiry` | Enquiry |
 | `/diploma`, `/be`, `/pg` | Academic programmes |
 | `/affiliation`, `/events`, `/achievement`, `/faculty` | Institutional information |
-| `/laboratory`, `/mobinnovation`, `/itp`, `/techviden`, `/toppers`, `/placement`, `/Startup` | Innovation, placement, and activities |
+| `/laboratory`, `/mobinnovation`, `/itp`, `/techviden`, `/toppers`, `/placement`, `/startup` | Innovation, placement, and activities |
 | `/library`, `/nss`, `/ncc`, `/counsel`, `/grievance`, `/anti`, `/wdc`, `/sports`, `/download` | Campus resources and student support |
 
-Routes are case-sensitive in the source configuration; in particular, the startup page is currently registered as `/Startup`.
 
 ## Asset management
 
@@ -284,15 +210,6 @@ The enquiry form collects personal information. Before production launch:
 **A nested GitHub Pages URL returns 404.** Enable SPA fallback to `index.html` and confirm the `/bapuclg` base path is present in both Vite and React Router configuration.
 
 **The API starts but the database is unavailable.** Check the MongoDB URI, credentials, network allowlist, and deployment logs. The current server logs a connection failure but does not expose a health endpoint.
-
-## Contributing
-
-1. Create a focused branch from `main`.
-2. Keep frontend and backend changes isolated where possible.
-3. Run `npm run lint` and `npm run build` from `frontend/`.
-4. Test the enquiry flow against a non-production MongoDB database.
-5. Update this README when routes, scripts, configuration, API behavior, or deployment assumptions change.
-6. Open a pull request with a concise summary, validation performed, screenshots for UI changes, and any required migration or environment-variable notes.
 
 ## License
 
